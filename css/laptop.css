@@ -1,12 +1,32 @@
-.about-container{
+.personal-container{
     flex-direction: row;
     min-height: auto;
 }
 
-.about__figure{
+.personal__figure{
     width: 300px;
 }
 
-.about__info{
+.personal__info{
     text-align: start;
+}
+
+#about{
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.about__skills{
+    margin: 0;
+    width: 50%;
+}
+
+.about__text{
+    width: 50%;
+}
+
+.about__skills__icons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
 }

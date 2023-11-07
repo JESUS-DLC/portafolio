@@ -1,51 +1,105 @@
-    <!DOCTYPE html>
-    <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/laptop.css" media="(min-width:930px)">
-        <title>Document</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/laptop.css" media="(min-width:930px)">
+    <title>Document</title>
+</head>
 
-    <body>
-        <header class="menu-container">
-            <p class="menu__title"><span><</span> JesusDlC <span>/></span> </p>
-            <nav class="menu__links">
-                <a href="#">Inicio</a>
-                <a href="#">Acerca de mi</a>
-                <a href="#">Portafolio</a>
-                <a href="#">Contacto</a>
-            </nav>
-        </header>
+<body>
+    <header class="menu-container">
+        <p class="menu__title"><span><</span> JesusDlC <span>/></span> </p>
+        <nav class="menu__links">
+            <a href="index.html">Inicio</a>
+            <a href="#about">Acerca de mi</a>
+            <a href="#portfolio">Portafolio</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+    </header>
 
-        <section class="about-container">
-            <figure class="about__figure">
-                <img class="about__figure__profile" src="/img/profile.jpg" alt="profile_image">
-            </figure>
-            <div class="about__info">
-                <h2>Hola!</h2>
-                <h1 id="about__info__name">Soy Jesús Emerith de la Cruz Bautista</h1>
-                <h3>Desarrollador Web</h3>
+    <section class="personal-container">
+        <figure class="personal__figure">
+            <img class="personal__figure__profile" src="/img/profile.jpg" alt="profile_image">
+        </figure>
+        <div class="personal__info">
+            <h2>Hola!</h2>
+            <h1 id="personal__info__name">Soy Jesús Emerith de la Cruz Bautista</h1>
+            <h3>Ingeniero en Sistemas Computacionales</h3>
+            <a href="files/CV JESUS EMERITH DE LA CRUZ BAUTISTA.pdf" target="_blank"
+                class="personal__info__button">Descargar CV</a>
+        </div>
+    </section>
+
+    <img src="/img/svg/wave.svg" alt="">
+
+    <main id="about">
+        <div class="about__text">
+            <p class="about__title">Acerda de mi</p>
+            <p class="about__description">
+                <span class="about__description__name">Soy Jesus Emerith de la Cruz Bautista,
+                    Ingeniero en sistemas computacionales</span>
+                con conocimiento en tecnologías como Java y Spring
+                Boot, desarrollando API REST. pruebas unitarias
+                con Junit y Mockito, desarrollo de
+                interfaces de usuario utilizando Angular, HTML, Y CSS.
+                manejo y diseño de bases de datos con PostgreSQL, además de
+                control de versiones de software con Git.
+            </p>
+        </div>
+
+        <div class="about__skills">
+            <p class="about__title">Skills</p>
+            <div class="about__skills__icons">
+
+                <div class="skill-container skill-java">
+                    <img class="skill__img" src="img/java.png" alt="angular">
+                    <p class="skill__title">Java</p>
+                </div>
+                <div class="skill-container skill-spring">
+                    <img class="skill__img" src="img/spring.png" alt="angular">
+                    <p class="skill__title">Spring boot</p>
+                </div>
+                <div class="skill-container skill-postgre">
+                    <img class="skill__img" src="img/postgre.png" alt="angular">
+                    <p class="skill__title">PostgreSQL</p>
+                </div>
+                <div class="skill-container skill-angular">
+                    <img class="skill__img" src="img/angular.png" alt="angular">
+                    <p class="skill__title">Angular</p>
+                </div>
+                <div class="skill-container skill-html">
+                    <img class="skill__img" src="img/html.png" alt="angular">
+                    <p class="skill__title">HTML</p>
+                </div>
+                <div class="skill-container skill-css">
+                    <img class="skill__img" src="img/css.png" alt="angular">
+                    <p class="skill__title">CSS</p>
+                </div>
+                <div class="skill-container skill-ts">
+                    <img class="skill__img" src="img/ts.png" alt="angular">
+                    <p class="skill__title">TypeScript</p>
+                </div>
+                <div class="skill-container skill-git">
+                    <img class="skill__img" src="img/git.png" alt="angular">
+                    <p class="skill__title">Git</p>
+                </div>
+            
             </div>
-        </section>
+        </div>
+    </main>
 
-        <img src="/img/svg/wave.svg" alt="">
+    <section id="portfolio">
+    </section>
 
-        <main>
-        </main>
+    <footer id="contact">
+    </footer>
+</body>
 
-        <section>
-
-        </section>
-
-        <footer>
-
-        </footer>
-    </body>
-
-    </html>
+</html>
