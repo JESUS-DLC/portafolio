@@ -1,0 +1,12 @@
+.about-container{
+    flex-direction: row;
+    min-height: auto;
+}
+
+.about__figure{
+    width: 300px;
+}
+
+.about__info{
+    text-align: start;
+}
